@@ -100,6 +100,6 @@ app.post("/getMinPath",(req,res)=>{
 });
 
 
-app.listen(7000,function(){
-     console.log("app server has started on 7000");
+app.listen(process.env.PORT, process.env.IP , function(){
+    console.log("TWF server has started");
 });
