@@ -1,0 +1,31 @@
+{
+  "name": "twf-assessment",
+  "version": "1.0.0",
+  "description": "assessment for internship ",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sara-2000/TWF-assessment.git"
+  },
+  "keywords": [
+    "javascript",
+    "node.js",
+    "web",
+    "developer"
+  ],
+  "author": "sara jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sara-2000/TWF-assessment/issues"
+  },
+  "homepage": "https://github.com/sara-2000/TWF-assessment#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
